@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Additional Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(246, 211, 220); /* Added background color */
+        }
+        header {
+            background-color: #f59794;
+            color: #111;
+            padding: 1rem;
+            text-align: center;
+            width: 50px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+            max-width: 100%; /* Ensure content doesn't overflow */
+            box-sizing: border-box; /* Include padding in width */
+            align-items: center; /* Center vertically */
+        }
+        .left-section {
+            flex: 1 1 400px;
+            margin-right: 2rem;
+        }
+        .left-section img {
+            width: 100%;
+            height: auto;
+            margin-top: 50px;
+            
+        }
+        .right-section {
+            flex: 1 1 600px;
+            background-color: #f59794;
+            padding: 20px;
+            margin-top: 20px;
+            box-sizing: border-box; /* Include padding in width */
+        }
+        .button {
+            background-color: orange;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #FFA500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <img src="image.png" alt="Your Image Description" width="400" height="400">
+        </div>
+        <div class="right-section">
+            <header class="header">
+                <h1>Lorem ipsum</h1>
+           
+            <p>
+                LOREM IPSUM
+                SET ADEMIR
+            </p>
+            <p>Click<img src="icons8-arrow-30.png" alt="Example Image"></p></header>
+        </div>
+    </div>
+</body>
+</html>
